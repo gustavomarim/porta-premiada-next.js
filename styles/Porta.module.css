@@ -1,14 +1,27 @@
+.area {
+    display: flex;
+    /* Ref. variáveis CSS */
+    width  : var(--area-porta-largura);
+    height : var(--area-porta-altura);
+}
+
+.estrutura {
+    display     : flex;
+    /* Opcupa espaço inteiro da área */
+    flex-grow   : 1;
+    border-left : 5px solid brown;
+    border-top  : 5px solid brown;
+    border-right: 5px solid brown;
+}
+
 .porta {
     display         : flex;
     flex-direction  : column;
     background-color: chocolate;
     align-items     : center;
+    /* Ocupa espaço inteiro da área */
+    flex-grow       : 1;
     padding         : 15px;
-
-    /* temp */
-    /* Ref. variáveis CSS */
-    width : var(--area-porta-largura);
-    height: var(--area-porta-altura);
 }
 
 .numero {
