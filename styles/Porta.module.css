@@ -6,8 +6,9 @@
     padding         : 15px;
 
     /* temp */
-    width : 200px;
-    height: 310px;
+    /* Ref. variáveis CSS */
+    width : var(--area-porta-largura);
+    height: var(--area-porta-altura);
 }
 
 .numero {
