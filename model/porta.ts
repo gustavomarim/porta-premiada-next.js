@@ -2,10 +2,10 @@
 
 export default class PortaModel {
     // atributos privados
-    #numero: number
-    #temPresente: boolean
-    #selecionada: boolean
-    #aberta: boolean
+    #numero: number;
+    #temPresente: boolean;
+    #selecionada: boolean;
+    #aberta: boolean;
 
     // Método construtor (POO)
     constructor(numero: number, temPresente = false, selecionada = false, aberta = false) {
