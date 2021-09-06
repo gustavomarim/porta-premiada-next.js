@@ -1,10 +1,10 @@
 import PortaModel from "../model/porta";
 
-export function criarPortas(qtde: number, selecionada: number): PortaModel[] {
+export function criarPortas(qtde: number, portaComPresente: number): PortaModel[] {
     // Gerador de portas
     return Array.from({ length: qtde }, (_, idx) => {
         const numero = idx + 1;
-        const temPresente = numero === selecionada;
+        const temPresente = numero === portaComPresente;
         return new PortaModel(numero, temPresente);
     });
 };
