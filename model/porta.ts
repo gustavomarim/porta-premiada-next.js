@@ -32,6 +32,10 @@ export default class PortaModel {
         return this.#aberta;
     }
 
+    get fechada() {
+        return !this.aberta;
+    }
+
     // Tornando o modelo da classe Rico => forma funcional
     // Gera uma cópia do objeto, tornando os valores imutáveis
 
