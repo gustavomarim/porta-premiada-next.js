@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import styles from '../styles/Presente.module.css';
 
 export default function Presente() {
