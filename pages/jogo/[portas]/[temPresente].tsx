@@ -9,7 +9,19 @@ export default function jogo() {
 
     const router = useRouter();
 
+    const [valido, setValido] = useState(false);
     const [portas, setPortas] = useState([]);
+
+    // Validação de Formulário
+    useEffect(() => {
+        const portas = +router.query.portas;
+        const temPresente = +router.query.temPresente;
+
+        const qtdePortasValidas = portas >= 3 && portas <= 100;
+        const temPresenteValido = temPresente >= 1 && temPresente <= portas;
+
+        setValido(qtdePortasValidas && temPresenteValido);
+    }, [portas]);
 
     // Evento p/ criação de portas através do navegador
     useEffect(() => {
@@ -30,7 +42,9 @@ export default function jogo() {
     return (
         <div id={styles.jogo}>
             <div className={styles.portas}>
-                {renderizarPortas()}
+                {valido ?
+                    renderizarPortas() :
+                    <h1 className={styles.erro}>AVISO <br />Valores Inválidos!!</h1>}
             </div>
 
             <div className={styles.botoes}>

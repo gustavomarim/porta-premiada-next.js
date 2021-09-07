@@ -1,16 +1,15 @@
 import styles from "../styles/EntradaNumerica.module.css";
 
 interface EntradaNumericaProps {
-    text: string;
-    value: number;
+    text: string
+    value: number
     onChange: (newValue: number) => void;
-}
+};
 
 export default function EntradaNumerica(props: EntradaNumericaProps) {
 
     const decremento = () => props.onChange(props.value - 1);
     const incremento = () => props.onChange(props.value + 1);
-
 
     return (
         <div className={styles.entradaNumerica}>

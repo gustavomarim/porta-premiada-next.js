@@ -24,6 +24,20 @@
     color           : #fff;
     font-size       : 2rem;
     border          : none;
+    border-radius   : 5px;
     padding         : 10px 25px;
     cursor          : pointer;
+}
+
+.erro {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 300px;
+    width           : 400px;
+    padding         : 30px;
+    text-align      : center;
+    font-size       : 2.5rem;
+    color           : #FFF;
+    background-color: #c0392c;
 }
