@@ -52,7 +52,6 @@ export default function jogo() {
                     <button>Reiniciar Jogo</button>
                 </Link>
             </div>
-
         </div>
     );
 };
