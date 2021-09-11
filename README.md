@@ -59,7 +59,7 @@ Ferramentas utilizadas na construção do projeto:
 * [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)<br>
 * [Typescript](https://www.typescriptlang.org)<br>
 
-##### # FRAMEWORK E BIBLIOTECA
+##### # FRAMEWORK / BIBLIOTECA
 * [Next.js](https://nextjs.org)
 * [React.js](https://pt-br.reactjs.org)<br>
 
