@@ -1,7 +1,7 @@
 <h1 align="center">Projeto Porta Premiada</h1>
 
 <div align="center">
-<img src="https://github.com/gustavomarim/imgs/blob/main/Porta-Premiada.gif" alt="Porta-Premiada" >
+<img src="https://github.com/gustavomarim/imgs/blob/main/Porta-Premiada.gif" alt="Porta-Premiada" height="480">
 </div>
 
 ---
